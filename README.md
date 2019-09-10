@@ -1,3 +1,6 @@
+이 자료는 책 "완벽한 IT인프라 구축을 위한 Docker" 에서 제공된 자료입니다.
+
+======================
 Docker 동작 확인용
 Docker 이미지 샘플
 ======================
@@ -10,7 +13,10 @@ Dockerfile은 Docker 컨테이너의 기반이되는 Docker 이미지 구성정�
  
 Usage
 ------
-    $ docker pull ewshin/dockersample1
+    $ docker pull love7peace/docker:1.0
+    $ docker run -d -p 8080:80 --name "testgit" love7peace/docker:1.0
+    
+    브라우저에 http://localhost:8080 을 입력하면 이미지 확인 가능.
 
 
 ### Docker 공식 사이트  
